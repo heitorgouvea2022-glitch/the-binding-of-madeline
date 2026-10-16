@@ -1,0 +1,14 @@
+{
+  "items": [
+    {"id":"item_a","isaacSource":"a definir na pasta do Isaac","effect":"dash_extra","value":1,"duration":"run"},
+    {"id":"item_b","isaacSource":"a definir","effect":"jump_height","value":1.2,"duration":"run"},
+    {"id":"item_c","isaacSource":"a definir","effect":"dash_range","value":1.3,"duration":"run"}
+  ],
+  "enemies": [
+    {"id":"enemy_a","isaacSource":"a definir","behavior":"patrol_horizontal","speed":40,"hp":1,"damage":"toque"},
+    {"id":"enemy_b","isaacSource":"a definir","behavior":"hover_chase","speed":30,"hp":1,"damage":"toque"}
+  ],
+  "rooms": [
+    {"id":"r1","enemies":["enemy_a"],"items":["item_a"],"bgm":"a definir"}
+  ]
+}
